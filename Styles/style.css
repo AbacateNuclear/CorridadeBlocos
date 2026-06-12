@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+.pista{
+    position:relative;
+    width:900px;
+    margin:30px auto;
+    border:2px solid black;
+    padding:20px;
+}
+
+.corredor{
+    display:flex;
+    align-items:center;
+    margin:25px 0;
+}
+
+.corredor span{
+    width:120px;
+}
+
+.bloco{
+    width:50px;
+    height:50px;
+    position:relative;
+}
+
+.bloco1{
+    background:red;
+}
+
+.bloco2{
+    background:blue;
+}
+
+.bloco3{
+    background:green;
+}
+
+.chegada{
+    position:absolute;
+    right:50px;
+    top:0;
+    width:5px;
+    height:100%;
+    background:black;
+}
